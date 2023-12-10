@@ -24,6 +24,9 @@ public class AboutActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        TextView linkgithub = findViewById(R.id.GithubLink);
+        linkgithub.setMovementMethod(LinkMovementMethod.getInstance());
+
 
 
     }
